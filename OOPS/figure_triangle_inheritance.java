@@ -1,17 +1,17 @@
 // Base class
 class Figure {
-    public void area() {
+    public void area(){
         System.out.println("Area method from Figure class (generic).");
     }
 
-    public void perimeter() {
+    public void perimeter(){
         System.out.println("Perimeter method from Figure class (generic).");
     }
 }
 
 // Subclass
-class Triangle extends Figure {
-    double a, b, c, base, height;
+class Triangle extends Figure{
+    double a, b, c,base,height;
 
     // Constructor
     public Triangle(double a, double b, double c, double base, double height) {
@@ -49,3 +49,4 @@ public class figure_triangle_inheritance {
         t.trianglePerimeter();
     }
 }
+
