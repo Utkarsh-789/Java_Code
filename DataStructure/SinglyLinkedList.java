@@ -87,6 +87,7 @@ public class SinglyLinkedList {
 
         do {
             System.out.println("\n--- MENU ---");
+            
             System.out.println("1. Insert at Beginning");
             System.out.println("2. Insert at End");
             System.out.println("3. Insert at Position");
@@ -110,7 +111,7 @@ public class SinglyLinkedList {
 
                 case 3:
                     System.out.print("Enter value: ");
-                    int val3 = sc.nextInt();
+                    int val3=sc.nextInt();
                     System.out.print("Enter position: ");
                     int pos = sc.nextInt();
                     list.insertAtPosition(val3, pos);
@@ -133,4 +134,5 @@ public class SinglyLinkedList {
         sc.close();
     }
 }
+
 
