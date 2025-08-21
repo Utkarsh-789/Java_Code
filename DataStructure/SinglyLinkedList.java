@@ -53,7 +53,7 @@ class LinkedList {
             return;
         }
 
-        Node current = head;
+        Node current=head;
         for (int i = 1; i < position - 1 && current != null; i++) {
             current = current.next;
         }
@@ -133,3 +133,4 @@ public class SinglyLinkedList {
         sc.close();
     }
 }
+
