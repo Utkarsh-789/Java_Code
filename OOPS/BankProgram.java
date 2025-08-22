@@ -1,7 +1,7 @@
 public class BankProgram{
 
     // Bank class (Inner class)
-    static class Bank {
+    static class Bank{
         private String accountHolder;
         private double balance;
 
@@ -49,3 +49,4 @@ public class BankProgram{
         account1.checkBalance();
     }
 }
+
