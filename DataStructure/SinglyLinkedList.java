@@ -12,7 +12,7 @@ class Node {
 }
 
 // Linked List class
-class LinkedList {
+class LinkedList{
     Node head;
 
     // Insert at the beginning
@@ -134,5 +134,6 @@ public class SinglyLinkedList {
         sc.close();
     }
 }
+
 
 
