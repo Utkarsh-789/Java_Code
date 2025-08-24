@@ -1,5 +1,5 @@
 // Abstract base class
-abstract class Shape {
+abstract class Shape{
     // Abstract methods (no body)
     abstract void area();
     abstract void perimeter();
@@ -63,3 +63,4 @@ public class AbstractionShape {
         rectangle.perimeter();
     }
 }
+
