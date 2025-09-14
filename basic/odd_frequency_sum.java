@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OddFrequencySumSimple {
+public class OddFrequencySumSimple{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -39,3 +39,4 @@ public class OddFrequencySumSimple {
         System.out.println("Sum of numbers with odd frequency: " + sum);
     }
 }
+
